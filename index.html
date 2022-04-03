@@ -14,11 +14,17 @@
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/ec09384b84.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Work Day Scheduler</title>
   </head>
 
@@ -29,7 +35,77 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <div id="hour-09" class="row hour-row">
+        <div class="col-md-1 hour"><span id="9">9am</span></div>
+        <textarea class="col-md-10 time-block description"></textarea>
+        <button class="col-md-1 saveBtn" aria-label="9am Save Button">
+          <i class="fas fa-lock"></i>
+        </button>
+      </div>
+
+      <div id="hour-10" class="row hour-row">
+        <div class="col-md-1 hour"><span id="10">10am</span></div>
+        <textarea class="col-md-10 time-block description"></textarea>
+        <button class="col-md-1 saveBtn" aria-label="10am Save Button">
+          <i class="fas fa-lock"></i>
+        </button>
+      </div>
+
+      <div id="hour-11" class="row hour-row">
+        <div class="col-md-1 hour"><span id="11">11am</span></div>
+        <textarea class="col-md-10 time-block description"></textarea>
+        <button class="col-md-1 saveBtn" aria-label="11am Save Button">
+          <i class="fas fa-lock"></i>
+        </button>
+      </div>
+
+      <div id="hour-12" class="row hour-row">
+        <div class="col-md-1 hour"><span id="12">12pm</span></div>
+        <textarea class="col-md-10 time-block description"></textarea>
+        <button class="col-md-1 saveBtn" aria-label="12pm Save Button">
+          <i class="fas fa-lock"></i>
+        </button>
+      </div>
+
+      <div id="hour-13" class="row hour-row">
+        <div class="col-md-1 hour"><span id="13">1pm</span></div>
+        <textarea class="col-md-10 time-block description"></textarea>
+        <button class="col-md-1 saveBtn" aria-label="1pm Save Button">
+          <i class="fas fa-lock"></i>
+        </button>
+      </div>
+
+      <div id="hour-14" class="row hour-row">
+        <div class="col-md-1 hour"><span id="14">2pm</span></div>
+        <textarea class="col-md-10 time-block description"></textarea>
+        <button class="col-md-1 saveBtn" aria-label="2pm Save Button">
+          <i class="fas fa-lock"></i>
+        </button>
+      </div>
+
+      <div id="hour-15" class="row hour-row">
+        <div class="col-md-1 hour"><span id="15">3pm</span></div>
+        <textarea class="col-md-10 time-block description"></textarea>
+        <button class="col-md-1 saveBtn" aria-label="3pm Save Button">
+          <i class="fas fa-lock"></i>
+        </button>
+      </div>
+
+      <div id="hour-16" class="row hour-row">
+        <div class="col-md-1 hour"><span id="16">4pm</span></div>
+        <textarea class="col-md-10 time-block description"></textarea>
+        <button class="col-md-1 saveBtn" aria-label="4pm Save Button">
+          <i class="fas fa-lock"></i>
+        </button>
+      </div>
+
+      <div id="hour-17" class="row hour-row">
+        <div class="col-md-1 hour"><span id="17">5pm</span></div>
+        <textarea class="col-md-10 time-block description"></textarea>
+        <button class="col-md-1 saveBtn" aria-label="5pm Save Button">
+          <i class="fas fa-lock"></i>
+        </button>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
