@@ -52,6 +52,9 @@ THEN the saved events persist
 
 ## Screenshots
 
+![Work Day Scheduler](./assets/images/work_day_scheduler.png)
+![Work Day Functionality](./assets/images/scheduler_in_action.gif)
+
 ## Source Code
 
 Source Code Reference: https://github.com/coding-boot-camp/super-disco
